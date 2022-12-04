@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,11 @@
     <link rel="stylesheet" href="/css/reset.css">
     <title>Velocity</title>
 </head>
+
 <body>
     <header class="header">
-        <div class="container header__container">
-            <h1 class="logo">Velocity</h1>
+        <div class="container container_header-container">
+            <h1 class="header__logo">Velocity</h1>
             <nav class="header__nav">
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -24,12 +26,128 @@
         <section class="welcome">
             <div class="container">
                 <h2 class="welcome__title">This is Velocity</h2>
-                <div class="welcome-links">
+                <div class="welcome__welcome-links">
                     <a href="#" class="link-primary">Sign Up</a>
                     <a href="#" class="link">Learn More</a>
                 </div>
             </div>
         </section>
+        <section class="areas">
+            <div class="container">
+                <div class="areas__title-wrapper ">
+                    <h3 class="areas__title">What We Do</h3>
+                    <h4 class="areas__subtitle">This is all areas in which we train people</h4>
+                </div>
+                <div class="areas__cards-wrapper">
+                    <div class="areas__card">
+                        <img src="/source/card1.svg" alt="Graphic Card Icon" class="areas__card-icon">
+                        <h3 class="areas__card-title">Graphic Design</h3>
+                        <p class="areas__card-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    </div>
+                    <div class="areas__card">
+                        <img src="/source/card2.svg" alt="Coding Card Icon" class="areas__card-icon">
+                        <h3 class="areas__card-title">Coding</h3>
+                        <p class="areas__card-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    </div>
+                    <div class="areas__card">
+                        <img src="/source/card3.svg" alt="English Card Icon" class="areas__card-icon">
+                        <h3 class="areas__card-title">English</h3>
+                        <p class="areas__card-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services">    
+            <div class="services__title-wrapper">
+                <h3 class="services__title">Services</h3>
+                <h4 class="services__subtitle">This is some text</h4>
+            </div>
+            <div class="services__card-wrapper">
+                <div class="services__card">
+                    <img src="/source/Services1.jpg" alt="Services-One-Img" class="services__img">
+                    <h4 class="services__card-title">Services One</h4>
+                    <p class="services__card-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius.</p>
+                    <div class="services__button-container">
+                        <button class="services__card-button">Learn More</button>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <img src="/source/Services2.jpg" alt="Sevices-Two-Img" class="services__img">
+                    <h4 class="services__card-title">Services Two</h4>
+                    <p class="services__card-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius.</p>
+                    <div class="services__button-container">
+                        <button class="services__card-button">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tab">
+            <div class="tab__title-wrapper">
+                <h3 class="tab__title">Tab Section</h3>
+                <h4 class="tab__subtitle">This is some text</h4>
+            </div>
+            <div class="tab__buttons-wrapper">
+                <div class="tab__button-container">
+                    <button class="tab__button" type="button">Tab Button 1</button>
+                </div>
+                <div class="tab__button-container">
+                    <button class="tab__button" type="button">Tab Button 2</button>
+                </div>
+                <div class="tab__button-container">
+                    <button class="tab__button" type="button">Tab Button 3</button>
+                </div>
+            </div>
+            <div class="tab__about">
+                <img src="/source/tab1.jpg" alt="tab-img" class="tab__about-picture">
+                <div class="tab__title">Some Title Here</div>
+                <div class="tab__subtitle-container">
+                    <div class="tab__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</div>
+                </div>
+            </div>
+        </section>
+        <section class="more-info">
+            <div class="more-info__about-velocity">
+                <h3 class="more-info__title">About Velocity</h3>
+                <p class="more-info__about-velocity-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+            </div>
+            <div class="more-info__useful-links">
+                <h3 class="more-info__title">Useful Links</h3>
+                <div class="more-info__links-wrapper">
+                    <a href="" class="more-info__link">Phasellus gravida semper nisi</a>
+                    <a href="" class="more-info__link">Suspendisse nisl elit</a>
+                    <a href="" class="more-info__link">Dellentesque habitant morbi</a>
+                    <a href="" class="more-info__link">Etiam sollicitudin ipsum</a>
+                </div>
+            </div>
+            <div class="more-info__social">
+                <h3 class="more-info__title">Social</h3>
+                <div class="more-info__recources-links-wrapper">
+                    <div class="more-info__recources-link-container">
+                        <img src="/source/icon-tw.svg" alt="twitter-icon" class="twitter-img">
+                        <h4 class="more-info__recouces-link-title">Twitter</h4>
+                    </div>
+                    <div class="more-info__recources-link-container">
+                        <img src="/source/icon-fb.svg" alt="facebook-icon" class="facebook-img">
+                        <h4 class="more-info__recouces-link-title">Facebook</h4>
+                    </div>
+                    <div class="more-info__recources-link-container">
+                        <img src="/source/icon-pin.svg" alt="pinterest-icon" class="pinterest-img">
+                        <h4 class="more-info__recouces-link-title">Pinterest</h4>
+                    </div>
+                    <div class="more-info__recources-link-container">
+                        <img src="/source/icon-google.svg" alt="google-icon" class="google-img">
+                        <h4 class="more-info__recouces-link-title">Google</h4>
+                    </div>
+                    <div class="more-info__recources-link-container">
+                        <img src="/source/icon-wb.svg" alt="webflow-icon" class="webflow-img">
+                        <h4 class="more-info__recouces-link-title">Webflow</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <h3 class="footer-title">Copyright Velocity Inc. Made in Webflow.</h3>
+    </footer>
 </body>
 </html>
