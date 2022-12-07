@@ -329,6 +329,11 @@ header {
     border-radius: 4px;
 }
 
+.tab__button-container--active
+{
+    background: #2E80B6;
+}
+
 .tab__button {
     font-size: 16px;
     line-height: 21px;
@@ -337,11 +342,21 @@ header {
     color: #FFFFFF;
 }
 
+@keyframes fade {
+    from {
+        opacity: 0.3;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .tab__about {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: fade 1s;
 }
 
 .tab__about-picture {
